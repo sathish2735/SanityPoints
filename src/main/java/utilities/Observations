@@ -1,0 +1,61 @@
+Observations
+
+1. Toggle switch -- None of the properties are getting changed for toggle switch when it is turned ON/OFF
+issue in: recurring task creation and project creation.
+
+2. To select a static or Dynamic page, we don't have any selector which can identify the elements uniquely. Tried using class but thats giving list of elements which are combination of visible and invisible elements
+
+
+
+Completed:
+1.createStaticPageCheck
+2.createDynamicPageCheck
+3.createPostCheck
+4.createWiki
+5.createReccurenceTaskCheck
+6.documentConversionCheck
+7.
+
+
+
+Issues:
+navigationModuleOrderChange
+
+
+Prerequisites:
+1. Always login with admin user credentials to user portal
+2.Create a Project with exact name as "Automation Test"  ---- include create project in manual sanity
+3. Create a Wiki and provide its link in configuration file at wikiURL field -- handled through view Count scenarios
+4.. Need to white list mail id mangorobot123@gmail.com in order to run incoming email related scenarios
+5. time zone should be set to IST --automated
+6. Update the email address in to[] list of incoming email related scenarios -- added to config file
+7. Check Total People count in Config and Update if needed
+8. fileDeepSearchCheck is dependent on fileUploadNewVersionCheck
+File upload next version is dependent on documentConversionCheck and needs to be run immidiately after that
+Execution sequence: documentConversionCheck -> fileUploadNewVersionCheck  -> fileDeepSearchCheck
+9. If running on a laptop, before executing the script, make sure that Pages Module is visible in Automation Test Project
+10. Make sure email addresses are assigned to all users and update individual email address in the config file
+11. Make sure share over email is enabled for news feed
+12. turn off levels and badges module before starting the script
+
+
+Separate Run Needed for:
+fileDeepSearchCheck
+verifyUsersInEveryoneCheck
+wikiTableOfContents
+
+
+Sanity Run Video
+https://hub.mangoapps.com/sf/MTg0Mzg4XzE4MzY3NjE
+
+
+Reminder to set & receive on correct time
+Incoming email check for private message
+
+
+automationtest.tech5group@hubmail.mangoapps.com
+
+
+parent==//div[contains(@class,'email-post-preview')]/parent::div
+child == //a[contains(@id,'share_actions_el')]
+

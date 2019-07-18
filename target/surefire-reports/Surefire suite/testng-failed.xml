@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="mangoMain.SanitySuite.TestRun">
+        <methods>
+          <include name="projectCreation"/>
+          <include name="writeReport"/>
+          <include name="renameProject"/>
+          <include name="askQuestion"/>
+          <include name="changeDP"/>
+          <include name="closeReport"/>
+          <include name="details"/>
+        </methods>
+      </class> <!-- mangoMain.SanitySuite.TestRun -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

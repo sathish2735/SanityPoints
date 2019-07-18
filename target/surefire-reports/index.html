@@ -1,0 +1,1076 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 30 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Command_line_suite">
+              <span class="suite-name border-failed">Command line suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Command_line_suite">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Command_line_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Command_line_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Command_line_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Command_line_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Command_line_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Command_line_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">32 methods, 30 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods failed suite-Command_line_suite"> (hide)</a> <!-- hide-methods failed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods failed suite-Command_line_suite"> (show)</a> <!-- show-methods failed suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Command_line_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="mangoMain.SanitySuite.TestRun" hash-for-method="ViewCounter">ViewCounter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="mangoMain.SanitySuite.TestRun" hash-for-method="activateRecognition">activateRecognition</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="mangoMain.SanitySuite.TestRun" hash-for-method="allUsersAddedToEveryOneGroup">allUsersAddedToEveryOneGroup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="mangoMain.SanitySuite.TestRun" hash-for-method="askQuestion">askQuestion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="mangoMain.SanitySuite.TestRun" hash-for-method="changeDP">changeDP</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="mangoMain.SanitySuite.TestRun" hash-for-method="createDynamicPage">createDynamicPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="mangoMain.SanitySuite.TestRun" hash-for-method="createPostFromCompose">createPostFromCompose</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="mangoMain.SanitySuite.TestRun" hash-for-method="createRecurrenceTask">createRecurrenceTask</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="mangoMain.SanitySuite.TestRun" hash-for-method="createStaticPage">createStaticPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="mangoMain.SanitySuite.TestRun" hash-for-method="createWikiFromCompose">createWikiFromCompose</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="mangoMain.SanitySuite.TestRun" hash-for-method="deActivateRecognition">deActivateRecognition</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="mangoMain.SanitySuite.TestRun" hash-for-method="defaultGroups">defaultGroups</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="mangoMain.SanitySuite.TestRun" hash-for-method="defaultLandingPageSetting">defaultLandingPageSetting</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="mangoMain.SanitySuite.TestRun" hash-for-method="disableUserModule">disableUserModule</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="mangoMain.SanitySuite.TestRun" hash-for-method="documentConversion">documentConversion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="mangoMain.SanitySuite.TestRun" hash-for-method="enableUserModule">enableUserModule</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="mangoMain.SanitySuite.TestRun" hash-for-method="fileDeepSearch">fileDeepSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="mangoMain.SanitySuite.TestRun" hash-for-method="fileUploadNewVersion">fileUploadNewVersion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="mangoMain.SanitySuite.TestRun" hash-for-method="incomingEmailAsPrivateMessage">incomingEmailAsPrivateMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="mangoMain.SanitySuite.TestRun" hash-for-method="incomingEmailReplyViaShare">incomingEmailReplyViaShare</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="mangoMain.SanitySuite.TestRun" hash-for-method="incomingEmailwithTeamID">incomingEmailwithTeamID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="mangoMain.SanitySuite.TestRun" hash-for-method="makeAFolderPublic">makeAFolderPublic</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="mangoMain.SanitySuite.TestRun" hash-for-method="projectCreation">projectCreation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="mangoMain.SanitySuite.TestRun" hash-for-method="projectDeletion">projectDeletion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="mangoMain.SanitySuite.TestRun" hash-for-method="renameProject">renameProject</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="mangoMain.SanitySuite.TestRun" hash-for-method="timeZoneSetup">timeZoneSetup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="mangoMain.SanitySuite.TestRun" hash-for-method="userExplicitLogin">userExplicitLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="mangoMain.SanitySuite.TestRun" hash-for-method="verifyUsersInEveryone">verifyUsersInEveryone</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="mangoMain.SanitySuite.TestRun" hash-for-method="videoUploadNConversion">videoUploadNConversion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="mangoMain.SanitySuite.TestRun" hash-for-method="wikiTableOfContents">wikiTableOfContents</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Command_line_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods passed suite-Command_line_suite"> (hide)</a> <!-- hide-methods passed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods passed suite-Command_line_suite"> (show)</a> <!-- show-methods passed suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Command_line_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="mangoMain.SanitySuite.TestRun" hash-for-method="OutgoingEmailViaShare">OutgoingEmailViaShare</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="mangoMain.SanitySuite.TestRun" hash-for-method="navigationModuleOrderChange">navigationModuleOrderChange</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Command_line_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Command_line_suite" class="panel Command_line_suite">
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">mangoMain.SanitySuite.TestRun</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ViewCounter">
+                  </a> <!-- ViewCounter -->
+                  <span class="method-name">ViewCounter</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at mangoMain.SanitySuite.TestRun.ViewCounter(TestRun.java:163)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="activateRecognition">
+                  </a> <!-- activateRecognition -->
+                  <span class="method-name">activateRecognition</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at mangoMain.SanitySuite.TestRun.activateRecognition(TestRun.java:87)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="allUsersAddedToEveryOneGroup">
+                  </a> <!-- allUsersAddedToEveryOneGroup -->
+                  <span class="method-name">allUsersAddedToEveryOneGroup</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at mangoMain.SanitySuite.TestRun.allUsersAddedToEveryOneGroup(TestRun.java:46)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="askQuestion">
+                  </a> <!-- askQuestion -->
+                  <span class="method-name">askQuestion</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at mangoMain.SanitySuite.TestRun.askQuestion(TestRun.java:114)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="changeDP">
+                  </a> <!-- changeDP -->
+                  <span class="method-name">changeDP</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at mangoMain.SanitySuite.TestRun.changeDP(TestRun.java:71)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createDynamicPage">
+                  </a> <!-- createDynamicPage -->
+                  <span class="method-name">createDynamicPage</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at mangoMain.SanitySuite.TestRun.createDynamicPage(TestRun.java:129)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createPostFromCompose">
+                  </a> <!-- createPostFromCompose -->
+                  <span class="method-name">createPostFromCompose</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at mangoMain.SanitySuite.TestRun.createPostFromCompose(TestRun.java:109)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createRecurrenceTask">
+                  </a> <!-- createRecurrenceTask -->
+                  <span class="method-name">createRecurrenceTask</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at utilities.FunctionLibrary.createReccurenceTaskCheck(FunctionLibrary.java:943)
+	at mangoMain.SanitySuite.TestRun.createRecurrenceTask(TestRun.java:134)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createStaticPage">
+                  </a> <!-- createStaticPage -->
+                  <span class="method-name">createStaticPage</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at mangoMain.SanitySuite.TestRun.createStaticPage(TestRun.java:124)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createWikiFromCompose">
+                  </a> <!-- createWikiFromCompose -->
+                  <span class="method-name">createWikiFromCompose</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at mangoMain.SanitySuite.TestRun.createWikiFromCompose(TestRun.java:119)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deActivateRecognition">
+                  </a> <!-- deActivateRecognition -->
+                  <span class="method-name">deActivateRecognition</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at mangoMain.SanitySuite.TestRun.deActivateRecognition(TestRun.java:79)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="defaultGroups">
+                  </a> <!-- defaultGroups -->
+                  <span class="method-name">defaultGroups</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at mangoMain.SanitySuite.TestRun.defaultGroups(TestRun.java:42)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="defaultLandingPageSetting">
+                  </a> <!-- defaultLandingPageSetting -->
+                  <span class="method-name">defaultLandingPageSetting</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at mangoMain.SanitySuite.TestRun.defaultLandingPageSetting(TestRun.java:75)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="disableUserModule">
+                  </a> <!-- disableUserModule -->
+                  <span class="method-name">disableUserModule</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at mangoMain.SanitySuite.TestRun.disableUserModule(TestRun.java:83)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="documentConversion">
+                  </a> <!-- documentConversion -->
+                  <span class="method-name">documentConversion</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at utilities.FunctionLibrary.documentConversionCheck(FunctionLibrary.java:1163)
+	at mangoMain.SanitySuite.TestRun.documentConversion(TestRun.java:57)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enableUserModule">
+                  </a> <!-- enableUserModule -->
+                  <span class="method-name">enableUserModule</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at mangoMain.SanitySuite.TestRun.enableUserModule(TestRun.java:91)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fileDeepSearch">
+                  </a> <!-- fileDeepSearch -->
+                  <span class="method-name">fileDeepSearch</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at mangoMain.SanitySuite.TestRun.fileDeepSearch(TestRun.java:172)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fileUploadNewVersion">
+                  </a> <!-- fileUploadNewVersion -->
+                  <span class="method-name">fileUploadNewVersion</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at mangoMain.SanitySuite.TestRun.fileUploadNewVersion(TestRun.java:61)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="incomingEmailAsPrivateMessage">
+                  </a> <!-- incomingEmailAsPrivateMessage -->
+                  <span class="method-name">incomingEmailAsPrivateMessage</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at mangoMain.SanitySuite.TestRun.incomingEmailAsPrivateMessage(TestRun.java:159)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="incomingEmailReplyViaShare">
+                  </a> <!-- incomingEmailReplyViaShare -->
+                  <span class="method-name">incomingEmailReplyViaShare</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at mangoMain.SanitySuite.TestRun.incomingEmailReplyViaShare(TestRun.java:149)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="incomingEmailwithTeamID">
+                  </a> <!-- incomingEmailwithTeamID -->
+                  <span class="method-name">incomingEmailwithTeamID</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at mangoMain.SanitySuite.TestRun.incomingEmailwithTeamID(TestRun.java:145)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="makeAFolderPublic">
+                  </a> <!-- makeAFolderPublic -->
+                  <span class="method-name">makeAFolderPublic</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at mangoMain.SanitySuite.TestRun.makeAFolderPublic(TestRun.java:177)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="projectCreation">
+                  </a> <!-- projectCreation -->
+                  <span class="method-name">projectCreation</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at mangoMain.SanitySuite.TestRun.projectCreation(TestRun.java:53)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="projectDeletion">
+                  </a> <!-- projectDeletion -->
+                  <span class="method-name">projectDeletion</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at mangoMain.SanitySuite.TestRun.projectDeletion(TestRun.java:100)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="renameProject">
+                  </a> <!-- renameProject -->
+                  <span class="method-name">renameProject</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at mangoMain.SanitySuite.TestRun.renameProject(TestRun.java:104)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="timeZoneSetup">
+                  </a> <!-- timeZoneSetup -->
+                  <span class="method-name">timeZoneSetup</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at mangoMain.SanitySuite.TestRun.timeZoneSetup(TestRun.java:66)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userExplicitLogin">
+                  </a> <!-- userExplicitLogin -->
+                  <span class="method-name">userExplicitLogin</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at mangoMain.SanitySuite.TestRun.userExplicitLogin(TestRun.java:38)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUsersInEveryone">
+                  </a> <!-- verifyUsersInEveryone -->
+                  <span class="method-name">verifyUsersInEveryone</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at mangoMain.SanitySuite.TestRun.verifyUsersInEveryone(TestRun.java:167)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="videoUploadNConversion">
+                  </a> <!-- videoUploadNConversion -->
+                  <span class="method-name">videoUploadNConversion</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at mangoMain.SanitySuite.TestRun.videoUploadNConversion(TestRun.java:139)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="wikiTableOfContents">
+                  </a> <!-- wikiTableOfContents -->
+                  <span class="method-name">wikiTableOfContents</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at mangoMain.SanitySuite.TestRun.wikiTableOfContents(TestRun.java:182)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">mangoMain.SanitySuite.TestRun</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="OutgoingEmailViaShare">
+                  </a> <!-- OutgoingEmailViaShare -->
+                  <span class="method-name">OutgoingEmailViaShare</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigationModuleOrderChange">
+                  </a> <!-- navigationModuleOrderChange -->
+                  <span class="method-name">navigationModuleOrderChange</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+        </div> <!-- panel Command_line_suite -->
+        <div panel-name="test-xml-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;Command line suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Command line test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;mangoMain.listener.TestListener&quot;/&gt;
+      &lt;class name=&quot;mangoMain.SanitySuite.TestRun&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- Command line suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Command_line_suite');
+function tableData_Command_line_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(32);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'OutgoingEmailViaShare')
+data.setCell(0, 2, 'mangoMain.SanitySuite.TestRun')
+data.setCell(0, 3, 10815);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'createWikiFromCompose')
+data.setCell(1, 2, 'mangoMain.SanitySuite.TestRun')
+data.setCell(1, 3, 4172);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'incomingEmailAsPrivateMessage')
+data.setCell(2, 2, 'mangoMain.SanitySuite.TestRun')
+data.setCell(2, 3, 4129);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'askQuestion')
+data.setCell(3, 2, 'mangoMain.SanitySuite.TestRun')
+data.setCell(3, 3, 4104);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'createPostFromCompose')
+data.setCell(4, 2, 'mangoMain.SanitySuite.TestRun')
+data.setCell(4, 3, 4041);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'defaultLandingPageSetting')
+data.setCell(5, 2, 'mangoMain.SanitySuite.TestRun')
+data.setCell(5, 3, 3473);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'projectCreation')
+data.setCell(6, 2, 'mangoMain.SanitySuite.TestRun')
+data.setCell(6, 3, 2696);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'defaultGroups')
+data.setCell(7, 2, 'mangoMain.SanitySuite.TestRun')
+data.setCell(7, 3, 2663);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'fileDeepSearch')
+data.setCell(8, 2, 'mangoMain.SanitySuite.TestRun')
+data.setCell(8, 3, 794);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyUsersInEveryone')
+data.setCell(9, 2, 'mangoMain.SanitySuite.TestRun')
+data.setCell(9, 3, 717);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'deActivateRecognition')
+data.setCell(10, 2, 'mangoMain.SanitySuite.TestRun')
+data.setCell(10, 3, 698);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'enableUserModule')
+data.setCell(11, 2, 'mangoMain.SanitySuite.TestRun')
+data.setCell(11, 3, 627);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'videoUploadNConversion')
+data.setCell(12, 2, 'mangoMain.SanitySuite.TestRun')
+data.setCell(12, 3, 617);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'timeZoneSetup')
+data.setCell(13, 2, 'mangoMain.SanitySuite.TestRun')
+data.setCell(13, 3, 615);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'renameProject')
+data.setCell(14, 2, 'mangoMain.SanitySuite.TestRun')
+data.setCell(14, 3, 514);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'documentConversion')
+data.setCell(15, 2, 'mangoMain.SanitySuite.TestRun')
+data.setCell(15, 3, 494);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'allUsersAddedToEveryOneGroup')
+data.setCell(16, 2, 'mangoMain.SanitySuite.TestRun')
+data.setCell(16, 3, 486);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'activateRecognition')
+data.setCell(17, 2, 'mangoMain.SanitySuite.TestRun')
+data.setCell(17, 3, 486);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'disableUserModule')
+data.setCell(18, 2, 'mangoMain.SanitySuite.TestRun')
+data.setCell(18, 3, 479);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'createRecurrenceTask')
+data.setCell(19, 2, 'mangoMain.SanitySuite.TestRun')
+data.setCell(19, 3, 477);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'navigationModuleOrderChange')
+data.setCell(20, 2, 'mangoMain.SanitySuite.TestRun')
+data.setCell(20, 3, 476);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'createDynamicPage')
+data.setCell(21, 2, 'mangoMain.SanitySuite.TestRun')
+data.setCell(21, 3, 474);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'makeAFolderPublic')
+data.setCell(22, 2, 'mangoMain.SanitySuite.TestRun')
+data.setCell(22, 3, 462);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'projectDeletion')
+data.setCell(23, 2, 'mangoMain.SanitySuite.TestRun')
+data.setCell(23, 3, 462);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'createStaticPage')
+data.setCell(24, 2, 'mangoMain.SanitySuite.TestRun')
+data.setCell(24, 3, 461);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'incomingEmailwithTeamID')
+data.setCell(25, 2, 'mangoMain.SanitySuite.TestRun')
+data.setCell(25, 3, 420);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'userExplicitLogin')
+data.setCell(26, 2, 'mangoMain.SanitySuite.TestRun')
+data.setCell(26, 3, 196);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'changeDP')
+data.setCell(27, 2, 'mangoMain.SanitySuite.TestRun')
+data.setCell(27, 3, 19);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'incomingEmailReplyViaShare')
+data.setCell(28, 2, 'mangoMain.SanitySuite.TestRun')
+data.setCell(28, 3, 3);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'fileUploadNewVersion')
+data.setCell(29, 2, 'mangoMain.SanitySuite.TestRun')
+data.setCell(29, 3, 2);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'ViewCounter')
+data.setCell(30, 2, 'mangoMain.SanitySuite.TestRun')
+data.setCell(30, 3, 1);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'wikiTableOfContents')
+data.setCell(31, 2, 'mangoMain.SanitySuite.TestRun')
+data.setCell(31, 3, 0);
+window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 46 seconds</span>
+              <div id="times-div-Command_line_suite">
+              </div> <!-- times-div-Command_line_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">mangoMain.SanitySuite.TestRun</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">userSingUp</span>
+                <br/>
+                <span class="ignored-method-name">userSearch</span>
+                <br/>
+                <span class="ignored-method-name">domainSignUp</span>
+                <br/>
+                <span class="ignored-method-name">logOutFromApplication</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">mangoMain.SanitySuite.TestRun</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">browserStart</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">userExplicitLogin</span>
+                <span class="method-start">5109 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">defaultGroups</span>
+                <span class="method-start">5308 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">allUsersAddedToEveryOneGroup</span>
+                <span class="method-start">7972 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">projectCreation</span>
+                <span class="method-start">8459 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">documentConversion</span>
+                <span class="method-start">11155 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">changeDP</span>
+                <span class="method-start">11650 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">fileUploadNewVersion</span>
+                <span class="method-start">11670 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deActivateRecognition</span>
+                <span class="method-start">11673 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">defaultLandingPageSetting</span>
+                <span class="method-start">12372 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">timeZoneSetup</span>
+                <span class="method-start">15845 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">disableUserModule</span>
+                <span class="method-start">16461 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">activateRecognition</span>
+                <span class="method-start">16942 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">enableUserModule</span>
+                <span class="method-start">17429 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">projectDeletion</span>
+                <span class="method-start">18058 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">renameProject</span>
+                <span class="method-start">18522 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createPostFromCompose</span>
+                <span class="method-start">19037 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">askQuestion</span>
+                <span class="method-start">23079 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createWikiFromCompose</span>
+                <span class="method-start">27184 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createStaticPage</span>
+                <span class="method-start">31357 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createDynamicPage</span>
+                <span class="method-start">31819 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createRecurrenceTask</span>
+                <span class="method-start">32294 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">videoUploadNConversion</span>
+                <span class="method-start">32772 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">incomingEmailwithTeamID</span>
+                <span class="method-start">33390 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">OutgoingEmailViaShare</span>
+                <span class="method-start">33810 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">incomingEmailReplyViaShare</span>
+                <span class="method-start">44626 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">incomingEmailAsPrivateMessage</span>
+                <span class="method-start">44631 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ViewCounter</span>
+                <span class="method-start">48762 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">fileDeepSearch</span>
+                <span class="method-start">48765 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyUsersInEveryone</span>
+                <span class="method-start">49561 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">makeAFolderPublic</span>
+                <span class="method-start">50278 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">wikiTableOfContents</span>
+                <span class="method-start">50741 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">navigationModuleOrderChange</span>
+                <span class="method-start">50742 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">writeReport</span>
+                <span class="method-start">51218 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">closeReport</span>
+                <span class="method-start">55909 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

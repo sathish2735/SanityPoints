@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="mangoMain.SanitySuite.TestRun">
+        <methods>
+          <include name="renameProject"/>
+          <include name="videoUploadNConversion"/>
+          <include name="projectDeletion"/>
+          <include name="createDynamicPage"/>
+          <include name="createRecurrenceTask"/>
+          <include name="askQuestion"/>
+          <include name="allUsersAddedToEveryOneGroup"/>
+          <include name="makeAFolderPublic"/>
+          <include name="incomingEmailwithTeamID"/>
+          <include name="fileDeepSearch"/>
+          <include name="verifyUsersInEveryone"/>
+          <include name="timeZoneSetup"/>
+          <include name="disableUserModule"/>
+          <include name="browserStart"/>
+          <include name="activateRecognition"/>
+          <include name="defaultLandingPageSetting"/>
+          <include name="documentConversion"/>
+          <include name="writeReport"/>
+          <include name="createWikiFromCompose"/>
+          <include name="createPostFromCompose"/>
+          <include name="deActivateRecognition"/>
+          <include name="changeDP"/>
+          <include name="wikiTableOfContents"/>
+          <include name="ViewCounter"/>
+          <include name="enableUserModule"/>
+          <include name="projectCreation"/>
+          <include name="createStaticPage"/>
+          <include name="incomingEmailReplyViaShare"/>
+          <include name="fileUploadNewVersion"/>
+          <include name="userExplicitLogin"/>
+          <include name="closeReport"/>
+          <include name="incomingEmailAsPrivateMessage"/>
+          <include name="defaultGroups"/>
+        </methods>
+      </class> <!-- mangoMain.SanitySuite.TestRun -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
