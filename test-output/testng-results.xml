@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="6" total="28" passed="20">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="560768" started-at="2019-07-15T13:05:01Z" finished-at="2019-07-15T13:14:22Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="560768" started-at="2019-07-15T13:05:01Z" finished-at="2019-07-15T13:14:22Z">
+      <class name="mangoMain.SanitySuite.TestRun">
+        <test-method status="PASS" signature="browserStart()[pri:0, instance:mangoMain.SanitySuite.TestRun@42607a4f]" name="browserStart" is-config="true" duration-ms="13525" started-at="2019-07-15T13:05:01Z" finished-at="2019-07-15T13:05:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserStart -->
+        <test-method status="PASS" signature="userExplicitLogin()[pri:1, instance:mangoMain.SanitySuite.TestRun@42607a4f]" name="userExplicitLogin" duration-ms="9883" started-at="2019-07-15T13:05:15Z" finished-at="2019-07-15T13:05:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userExplicitLogin -->
+        <test-method status="PASS" signature="defaultGroups()[pri:2, instance:mangoMain.SanitySuite.TestRun@42607a4f]" name="defaultGroups" duration-ms="3744" started-at="2019-07-15T13:05:25Z" finished-at="2019-07-15T13:05:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defaultGroups -->
+        <test-method status="PASS" signature="allUsersAddedToEveryOneGroup()[pri:3, instance:mangoMain.SanitySuite.TestRun@42607a4f]" name="allUsersAddedToEveryOneGroup" duration-ms="7120" started-at="2019-07-15T13:05:28Z" finished-at="2019-07-15T13:05:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allUsersAddedToEveryOneGroup -->
+        <test-method status="PASS" signature="projectCreation()[pri:4, instance:mangoMain.SanitySuite.TestRun@42607a4f]" name="projectCreation" duration-ms="21137" started-at="2019-07-15T13:05:36Z" finished-at="2019-07-15T13:05:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- projectCreation -->
+        <test-method status="PASS" signature="documentConversion()[pri:5, instance:mangoMain.SanitySuite.TestRun@42607a4f]" name="documentConversion" duration-ms="26691" started-at="2019-07-15T13:05:57Z" finished-at="2019-07-15T13:06:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- documentConversion -->
+        <test-method status="PASS" signature="fileUploadNewVersion()[pri:6, instance:mangoMain.SanitySuite.TestRun@42607a4f]" name="fileUploadNewVersion" duration-ms="20606" started-at="2019-07-15T13:06:23Z" finished-at="2019-07-15T13:06:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileUploadNewVersion -->
+        <test-method status="PASS" signature="defaultLandingPageSetting()[pri:7, instance:mangoMain.SanitySuite.TestRun@42607a4f]" name="defaultLandingPageSetting" duration-ms="10086" started-at="2019-07-15T13:06:44Z" finished-at="2019-07-15T13:06:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defaultLandingPageSetting -->
+        <test-method status="PASS" signature="createPostFromCompose()[pri:14, instance:mangoMain.SanitySuite.TestRun@42607a4f]" name="createPostFromCompose" duration-ms="25861" started-at="2019-07-15T13:06:54Z" finished-at="2019-07-15T13:07:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPostFromCompose -->
+        <test-method status="PASS" signature="createWikiFromCompose()[pri:15, instance:mangoMain.SanitySuite.TestRun@42607a4f]" name="createWikiFromCompose" duration-ms="26788" started-at="2019-07-15T13:07:20Z" finished-at="2019-07-15T13:07:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWikiFromCompose -->
+        <test-method status="PASS" signature="createStaticPage()[pri:16, instance:mangoMain.SanitySuite.TestRun@42607a4f]" name="createStaticPage" duration-ms="33061" started-at="2019-07-15T13:07:47Z" finished-at="2019-07-15T13:08:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createStaticPage -->
+        <test-method status="PASS" signature="createDynamicPage()[pri:17, instance:mangoMain.SanitySuite.TestRun@42607a4f]" name="createDynamicPage" duration-ms="32164" started-at="2019-07-15T13:08:20Z" finished-at="2019-07-15T13:08:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDynamicPage -->
+        <test-method status="PASS" signature="createRecurrenceTask()[pri:18, instance:mangoMain.SanitySuite.TestRun@42607a4f]" name="createRecurrenceTask" duration-ms="24748" started-at="2019-07-15T13:08:52Z" finished-at="2019-07-15T13:09:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createRecurrenceTask -->
+        <test-method status="PASS" signature="videoUploadNConversion()[pri:19, instance:mangoMain.SanitySuite.TestRun@42607a4f]" name="videoUploadNConversion" duration-ms="48590" started-at="2019-07-15T13:09:17Z" finished-at="2019-07-15T13:10:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- videoUploadNConversion -->
+        <test-method status="FAIL" signature="incomingEmailwithTeamID()[pri:21, instance:mangoMain.SanitySuite.TestRun@42607a4f]" name="incomingEmailwithTeamID" duration-ms="36526" started-at="2019-07-15T13:10:05Z" finished-at="2019-07-15T13:10:42Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:568)
+at org.testng.Assert.assertEquals(Assert.java:578)
+at mangoMain.SanitySuite.TestRun.incomingEmailwithTeamID(TestRun.java:116)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incomingEmailwithTeamID -->
+        <test-method status="FAIL" signature="incomingEmailReplyViaShare()[pri:22, instance:mangoMain.SanitySuite.TestRun@42607a4f]" name="incomingEmailReplyViaShare" duration-ms="7055" started-at="2019-07-15T13:10:43Z" finished-at="2019-07-15T13:10:50Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:568)
+at org.testng.Assert.assertEquals(Assert.java:578)
+at mangoMain.SanitySuite.TestRun.incomingEmailReplyViaShare(TestRun.java:120)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incomingEmailReplyViaShare -->
+        <test-method status="PASS" signature="OutgoingEmailViaShare()[pri:22, instance:mangoMain.SanitySuite.TestRun@42607a4f]" name="OutgoingEmailViaShare" duration-ms="17221" started-at="2019-07-15T13:10:50Z" finished-at="2019-07-15T13:11:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OutgoingEmailViaShare -->
+        <test-method status="PASS" signature="incomingEmailAsPrivateMessage()[pri:23, instance:mangoMain.SanitySuite.TestRun@42607a4f]" name="incomingEmailAsPrivateMessage" duration-ms="17978" started-at="2019-07-15T13:11:07Z" finished-at="2019-07-15T13:11:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incomingEmailAsPrivateMessage -->
+        <test-method status="PASS" signature="makeAFolderPublic()[pri:24, instance:mangoMain.SanitySuite.TestRun@42607a4f]" name="makeAFolderPublic" duration-ms="43146" started-at="2019-07-15T13:11:25Z" finished-at="2019-07-15T13:12:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeAFolderPublic -->
+        <test-method status="PASS" signature="verifyUsersInEveryone()[pri:25, instance:mangoMain.SanitySuite.TestRun@42607a4f]" name="verifyUsersInEveryone" duration-ms="7434" started-at="2019-07-15T13:12:09Z" finished-at="2019-07-15T13:12:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUsersInEveryone -->
+        <test-method status="PASS" signature="fileDeepSearch()[pri:25, instance:mangoMain.SanitySuite.TestRun@42607a4f]" name="fileDeepSearch" duration-ms="9930" started-at="2019-07-15T13:12:16Z" finished-at="2019-07-15T13:12:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileDeepSearch -->
+        <test-method status="PASS" signature="ViewCounter()[pri:26, instance:mangoMain.SanitySuite.TestRun@42607a4f]" name="ViewCounter" duration-ms="59676" started-at="2019-07-15T13:12:26Z" finished-at="2019-07-15T13:13:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewCounter -->
+        <test-method status="PASS" signature="wikiTableOfContents()[pri:27, instance:mangoMain.SanitySuite.TestRun@42607a4f]" name="wikiTableOfContents" duration-ms="56398" started-at="2019-07-15T13:13:26Z" finished-at="2019-07-15T13:14:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wikiTableOfContents -->
+        <test-method status="PASS" signature="writeReport()[pri:0, instance:mangoMain.SanitySuite.TestRun@42607a4f]" name="writeReport" is-config="true" duration-ms="0" started-at="2019-07-15T13:14:22Z" finished-at="2019-07-15T13:14:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeReport -->
+        <test-method status="PASS" signature="closeReport()[pri:0, instance:mangoMain.SanitySuite.TestRun@42607a4f]" name="closeReport" is-config="true" duration-ms="1" started-at="2019-07-15T13:14:28Z" finished-at="2019-07-15T13:14:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeReport -->
+      </class> <!-- mangoMain.SanitySuite.TestRun -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

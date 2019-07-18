@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+       <class name="mangoMain.SanitySuite.TestRun">
+      <methods>
+      <include name="userExplicitLogin" />
+      <include name="defaultGroups" />
+      <include name="allUsersAddedToEveryOneGroup" />
+      <include name="verifyUsersInEveryone" />
+      <include name="projectCreation" />
+      <include name="defaultLandingPageSetting" />
+      <include name="createPostFromCompose" />
+      <include name="createStaticPage" />
+      <include name="createDynamicPage" />
+      <include name="createRecurrenceTask" />
+      <include name="createWikiFromCompose" />
+      <include name="documentConversion" />
+      <include name="fileDeepSearch" /> 
+      <include name="fileUploadNewVersion" />
+      <include name="videoUploadNConversion" />
+      <include name="wikiTableOfContents" />
+      <include name="incomingEmailwithTeamID" />
+      <include name="incomingEmailReplyViaShare" />  
+      <include name="OutgoingEmailViaShare" />  
+      <include name="incomingEmailAsPrivateMessage" />
+      <include name="makeAFolderPublic" />
+      <include name="ViewCounter" />       
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
